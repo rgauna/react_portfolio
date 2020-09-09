@@ -8,9 +8,8 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Rodolfo Gauna</h2>
             <img
-              src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/72474487_10101225941522273_7371490114297397248_o.jpg?_nc_cat=105&_nc_sid=730e14&_nc_ohc=IayazJ1SpekAX9Iwhc8&_nc_ht=scontent-dfw5-1.xx&oh=c71054d304ebb447b1f9d65a7f8ef644&oe=5F7F397A"
+              src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
               alt="avatar"
               style={{height: '250px'}}
                />
@@ -24,16 +23,16 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
+                    (210) 385-5376
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                    rudy.gauna@gmail.com
                   </ListItemContent>
                 </ListItem>
 
