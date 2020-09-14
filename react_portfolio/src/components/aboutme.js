@@ -14,7 +14,7 @@ class Resume extends Component {
 
             <h2 style={{paddingTop: '2em'}}>Hello! :)</h2>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I'm Rudy! I live in San Antonio, TX. I am currently styding to become a full-stack web developer. My goal is to see how I can currently integrate this new skillset into my current line of work. Thank you for visiting! :)</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
           </Cell>
           <Cell className="hobbies-right-col" col={8}>
@@ -22,20 +22,20 @@ class Resume extends Component {
             </div>
             <h2>Hobbies</h2>
               <Skills
-                skill="javascript"
-                progress={20}
+                skill="running"
+                progress={85}
                 />
                 <Skills
-                  skill="HTML/CSS"
-                  progress={20}
+                  skill="music production"
+                  progress={35}
                   />
                   <Skills
-                    skill="NodeJS"
-                    progress={20}
+                    skill="video games"
+                    progress={45}
                     />
                     <Skills
-                      skill="React"
-                      progress={20}
+                      skill="web development"
+                      progress={35}
                       />
 
 

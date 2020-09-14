@@ -8,13 +8,11 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <img
+            <img className="contactImg"
               src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
@@ -32,7 +30,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    rudy.gauna@gmail.com
+                    <a href="mailto:rudy.gauna@gmail.com">Email</a>
                   </ListItemContent>
                 </ListItem>
 
